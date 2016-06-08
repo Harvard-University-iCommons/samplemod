@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
+# !/usr/bin/env python
 
-from .context import sample
-
+import os
 import unittest
 
 
-class BasicTestSuite(unittest.TestCase):
+class SamplemodTestSuite(unittest.TestCase):
     """Basic test cases."""
 
     def test_absolute_truth_and_meaning(self):
